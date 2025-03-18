@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Previsão do Tempo</title>
+</head>
+<body>
+       <main>
+              <input id="input-cidade" placeholder="Digite o nome da cidade">
+     
+              <button class="botao-busca" onclick="cliqueiNobotao()">
+                 <img class="img-busca" src= "https://www.svgrepo.com/show/488200/find.svg" alt="buscar">
+              </button>
+              
+              <article id="cont-tempo">
+              <h2 id="cidade">Tempo</h2>              
+               
+          <div id="info-tempo">
+              <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="icone-tempo"> 
+              <p class="text-previsao">-----</p>
+          </div>
+
+          <div class="info-temperatura">
+                <img src="https://cdn-icons-png.flaticon.com/512/6239/6239785.png" alt="">
+              <p class="temp">Temperatura °C</p>
+          </div>
+
+          <div class="temp-min_max">
+             <p class="temp-min">Min</p>
+             <p class="temp-max">Max</p>
+          </div>
+               
+              <p class="umidade">Umidade: %</p>
+              
+              </article>
+       </main>
+       <script src="scripts.js"></script>
+</body>
+</html>
